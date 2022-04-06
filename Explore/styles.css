@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Varela+Round&display=swap');
+
+.copyright {
+    background-color: cadetblue;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: beige;
+    font-family: 'Varela Round', sans-serif;
+    font-size: 10px;
+    padding: 10px;
+}
