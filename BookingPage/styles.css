@@ -116,6 +116,17 @@ button:hover{
     font-family: Mulish;
 }
 
+.oval {
+    height: 50px;
+    width: 100px;
+    background-color: #F36326;
+    border-radius: 50px;
+    text-align: center;
+    align-items:center;
+    font-family: Mulish;
+    color: white;
+}
+
 .details {
     font-family: Mulish;
     color: gray;
