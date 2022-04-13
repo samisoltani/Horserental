@@ -1,47 +1,334 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Horserentals</title>
-    <link href="styles.css" rel="stylesheet" />
-    
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Horserentals</title>
+<link href="styles.css" rel="stylesheet" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@200&display=swap" rel="stylesheet"> 
-    
+
 </head>
-<body>
-    <heder>
-        <div class='HorseRentals-logo'>
-            <a href="#AllThingsRiding">All Things Riding</a>
-             <a href="#TopRidingDestinations">Top Riding Destinations</a>
-            <a href="#Equestrian101">Equestrian 101</a>
-            <a href="#Navigation">Navigation</a>
-             <a href="#Search">Search</a>
-        <div class="menu">
+  <body>
+     <header>
+         <img class="nav-logo" src="media/HorseRentalslogo.png" alt="horserentals logo">
+             <nav class="navbar">
+                <ul class="nav-links">
+             <li><a href="#home">Home</a></li>
+             <li><a href="#allthingsriding">All Things Riding</a></li>
+             <li><a href="#topdestinations">Top Destinations</a></li>
+             <li><a href="#equestrian101">Equestrian 101</a></li>
+                </ul>
+             </nav>
+            <a class="subscribe" href="#subscribe"><button>Subscribe</button></a>
+      </header>
+
+<main>
+    <div class="searchbar"> 
+        <input type="text" placeholder="Search activities or destinations">
+        <button1 type="Search">Search</button1>
+    </div>
+         <div class="site-container">
+           <div class="article-container">
+          <article class="article-card">
+          <figure class="article-image">
+          <img src="media/Disney World.jpg" alt="Disney World" width="100%">
+          </figure>
+          <div class="article-content">
+          <h3 class="card-title">Riding Trip To Disney World</h3>
+          <h4 class="card-cost">$1040</h4>
+          <p class="card-destination">California</p>
+          <p class="card-review"><span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star"></span>4.2 (4000 reviews)</p>
+          </div>
+                </article>
+                <article class="article-card">
+                    <figure class="article-image">
+                        <img src="media/Cattle Drive Trail.jpeg" alt="Cattle Drive Trail">
+                    </figure>
+                    <div class="article-content">
+                        <h3 class="card-title">Cattle Drive Trail</h3>
+                        <h4 class="card-cost">$440</h4>
+                          <p class="card-destination">Montana</p>
+                          <p class="card-review"><span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>4.1 (630 reviews)</p>
+                    </div>
+                </article>
+                <article class="article-card">
+                    <figure class="article-image">
+                        <img src="Media/Desert Horesriding trail.jpeg" alt="Desert Horseriding Trail">
+                    </figure>
+                    <div class="article-content">
+                        <h3 class="card-title">Desert Horseriding Trail</h3>
+                        <h4 class="card-cost">$730</h4>
+                          <p class="card-destination">Arizona</p>
+                          <p class="card-review"><span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>4.4 (867 reviews)</p>
+                    </div>
+                </article>
+                <article class="article-card">
+                    <figure class="article-image">
+                        <img src="Media/Castle Horeseriding trail.webp" alt="Castle Trail">
+                    </figure>
+                    <div class="article-content">
+                        <h3 class="card-title">Castle Trail</h3>
+                        <h4 class="card-cost">$1030</h4>
+                          <p class="card-destination">Slovenia</p>
+                          <p class="card-review"><span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>4.7 (1380 reviews)</p>
+                    </div>
+                </article>
+                <article class="article-card">
+                    <figure class="article-image">
+                        <img src="Media/Ride and camp trail.jpeg" alt="Ride and Camp Trail">
+                    </figure>
+                    <div class="article-content">
+                        <h3 class="card-title">Ride and Camp Trail</h3>
+                        <h4 class="card-cost">$800</h4>
+                          <p class="card-destination">Mongolia</p>
+                          <p class="card-review"><span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>4.5 (700 reviews)</p>
+                    </div>
+                </article>
+                <article class="article-card">
+                    <figure class="article-image">
+                        <img src="Media/National park horesriding trail.jpeg" alt="National Park Trail">
+                    </figure>
+                    <div class="article-content">
+                        <h3 class="card-title">National Park Trail</h3>
+                        <h4 class="card-cost">$600</h4>
+                          <p class="card-destination">Montana</p>
+                          <p class="card-review"><span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>4.6 (1067 reviews)</p>
+                    </div>
+                </article>
+                <article class="article-card">
+                    <figure class="article-image">
+                        <img src="Media/Navajoland horseriding trail.jpg" alt="Navajoland Horeseriding Trail">
+                    </figure>
+                    <div class="article-content">
+                        <h3 class="card-title">Navajoland Horeseriding Trail</h3>
+                        <h4 class="card-cost">$1000</h4>
+                          <p class="card-destination">Navajo Nation</p>
+                          <p class="card-review"><span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>4.5 (2080 reviews)</p>
+                    </div>
+                </article>
+                <article class="article-card">
+                    <figure class="article-image">
+                        <img src="Media/Grand Canyon Horseriding Trail.jpeg" alt="Grand Canyon Horeseriding Trail">
+                    </figure>
+                    <div class="article-content">
+                        <h3 class="card-title">Grand Canyon Horeseriding Trail</h3>
+                        <h4 class="card-cost">$600</h4>
+                          <p class="card-destination">Arizona</p>
+                          <p class="card-review"><span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>4.8 (3190 reviews)</p>
+                    </div>
+                </article>
+                <article class="article-card">
+                    <figure class="article-image">
+                        <img src="Media/Winter pastures horseriding trail.jpeg" alt="Winter Pastures Horeseriding Trail">
+                    </figure>
+                    <div class="article-content">
+                        <h3 class="card-title">Grand Canyon Horeseriding Trail</h3>
+                        <h4 class="card-cost">$900</h4>
+                          <p class="card-destination">Ontario</p>
+                          <p class="card-review"><span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>4.6 (680 reviews)</p>
+                    </div>
+                </article>
+                <article class="article-card">
+                    <figure class="article-image">
+                        <img src="Media/icelandic horseriding trail.jpeg" alt="Icelandic Trail">
+                    </figure>
+                    <div class="article-content">
+                        <h3 class="card-title">Icelandic Trail</h3>
+                        <h4 class="card-cost">$1500</h4>
+                          <p class="card-destination">Iceland</p>
+                          <p class="card-review"><span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>4.3 (1879 reviews)</p>
+                    </div>
+                </article>
+                <article class="article-card">
+                    <figure class="article-image">
+                        <img src="Media/Sugar Maple horseriding trail.jpeg" alt="Sugar Maple Trail">
+                    </figure>
+                    <div class="article-content">
+                        <h3 class="card-title">Sugar Maple Trail</h3>
+                        <h4 class="card-cost">$300</h4>
+                          <p class="card-destination">Ontario</p>
+                          <p class="card-review"><span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>4.2 (856 reviews)</p>
+                    </div>
+                </article>
+                <article class="article-card">
+                    <figure class="article-image">
+                        <img src="Media/Mountains and forests horseriding trail.jpeg" alt="Mountains and Forests Trail">
+                    </figure>
+                    <div class="article-content">
+                        <h3 class="card-title">Mountains and Forests Trail</h3>
+                        <h4 class="card-cost">$800</h4>
+                          <p class="card-destination">British Columbia</p>
+                          <p class="card-review"><span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>4.2 (648 reviews)</p>
+                    </div>
+                </div>
+                </article>
+                <div class="pagination">
+                    <a href="#">&lt;</a>
+                    <a class="active" href="#">1</a>
+                    <a href="#">2</a>
+                    <a href="#">3</a>
+                    <a href="#">4</a>
+                    <a href="#">5</a>
+                    <a href="#">6</a>
+                    <a href="#">&gt;</a>
+                </div>
         </div>
-        <div class="banner">
-            <p></p>
-            <div>
-                <p></p>
+
+            <div class="maps-container">
+                <div class="map-heading">
+                <h2 class="maps-title"><a class="open-maps" href="#openmaps"><button2>Open Maps</button2></a>Search Destinations By Map</h2>
+                </div>
+                <div id="map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7118073.995122452!2d-107.00558988411392!3d39.34003727970379!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54eab584e432360b%3A0x1c3bb99243deb742!2sUnited%20States!5e0!3m2!1sen!2sca!4v1649730639516!5m2!1sen!2sca" width="1300" height="500" style="border: 5px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
         </div>
-    </heder>
-        <main>
-            <section>  
-            </section>
-            <section>
-            </section>
-            <section>
-            </section>
-        </main>
-    <footer>
-
-        <div class="copyright">
-            <p>HORSERENTAL.COM COPYRIGHT 2022 MDM X WINTER - DIGITAL MEDIA ENVIRONMENTS</p>
+ <div class="guides-container">
+        <div class="guides-heading">
+          <h2 class="tour-guides"><a class="View More" href="#viewmore"><button3>View More</button3></a>Search Tour Guides</h2>
         </div>
-    </footer>
-    <script src="script.js"></script>
+        <div class="card-row">
+          <div class="card">
+            <img src="media/Devon Lane Cropped.jpg" alt="Devon lane">
+            <div class = "container">
+                <h3 class="Guides-Title">Devon Lane</h3>
+                <h4 class="specialization">Professional Rider</h4>
+                <p class="description">Devon is a professional rider with an experience of 10 years.</p>
+            </div>
+          </div>
+          <div class="card">
+            <img src="media/Cody Fisher Cropped.jpg" alt="Cody Fisher">
+            <div class = "container">
+                <h3 class="Guides-Title">Cody Fisher</h3>
+                <h4 class="specialization">Traditional Guide</h4>
+                <p class="description">Learn from the best! Cody is an expert guide when it comes to horseriding trails.</p>
+            </div>
+          </div>
+          <div class="card">
+            <img src="media/Dianne Russel Cropped.jpg" alt="Dianne Russell">
+            <div class = "container">
+                <h3 class="Guides-Title">Dianne Russell</h3>
+                <h4 class="specialization">Professional Rider</h4>
+                <p class="description">Dianne is a wonderful guide with over 6 years of experience.</p>
+            </div>
+          </div>
+          <div class="card">
+            <img src="media/Flyod Miles Cropped.jpg" alt="Floyd Miles">
+            <div class = "container">
+                <h3 class="Guides-Title">Floyd Miles</h3>
+                <h4 class="specialization">Professional Rider</h4>
+                <p class="description">Floyd has extensive knowledge on different fauna alongside horses.</p>
+            </div>
+          </div>
+          <div class="card">
+            <img src="media/Kathryn Murphy Cropped.jpg" alt="Kathryn Murphy">
+            <div class = "container">
+                <h3 class="Guides-Title">Kathryn Murphy</h3>
+                <h4 class="specialization">Traditional Guide</h4>
+                <p class="description">Kathryn has been a mentor to many young women horseriders.</p>
+            </div>
+          </div>
+          <div class="card">
+            <img src="media/Jenny Wilson Cropped.jpg" alt="Jenny Wilson">
+            <div class = "container">
+                <h3 class="Guides-Title">Jenny Wilson</h3>
+                <h4 class="specialization">Traditional Prairie Guide</h4>
+                <p class="description">Kathryn has been a mentor to many young women horseriders.</p>
+            </div>
+          </div>
+        </div>
+ </div>
+              </div>
+            </div>
+        </div>
+</main>
+    
+<footer>
+    <div class="copyright" style="padding-top: 50px;">
+
+    </div>
+    <div class="row" style="background-color: #BFCEC0;">
+
+      <div class="footer-column">
+        <img class="nav-logo" src="media\HorseRentalslogo.png" alt="horserentals logo" style="height: 70px; width: auto;"><br>
+        <p>221 B Santa Monica, Los Angeles <br> <br>
+          (+1) 923 2341 22<br> <br>
+          contact@horserentals.com
+        </p>
+        <br>
+        <br>
+        <p></p>
+      </div>
+      <div class="footer-column">
+        <h2 style="font-family:'Mulish', sans-serif;">About Us</h2>
+        <p>How to Book <br> <br>
+          Help Center<br> <br>
+          Contact Us<br> <br>
+          Careers<br> <br>
+          About Us<br> <br>
+          Blog
+        </p>
+      </div>
+      <div class="footer-column">
+        <h2 style="font-family:'Mulish', sans-serif;">Support</h2>
+        <p>Privacy Policy <br> <br>
+          Help Center<br> <br>
+          Terms of Service<br> <br>
+          Code of Conduct
+      </div>
+      <p>@2020 Horserentals. All rights reserved.</p>
+      </div>
+</footer>
+<script src="script.js"></script>
 </body>
 </html>
