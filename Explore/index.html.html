@@ -22,13 +22,18 @@
              <li><a href="#equestrian101">Equestrian 101</a></li>
                 </ul>
              </nav>
-            <a class="subscribe" href="#subscribe"><button>Subscribe</button></a>
+             <div>
+                <button>Subscribe</button>
+                <a class="subscribe" href="#subscribe"></a>
+            </div>
       </header>
 
 <main>
     <div class="searchbar"> 
-        <input type="text" placeholder="Search activities or destinations">
+    <form>
+        <input type="text" id="activities" name="activities" placeholder="Search activities or destinations..." required />
         <button1 type="Search">Search</button1>
+    </form>
     </div>
          <div class="site-container">
            <div class="article-container">
@@ -289,6 +294,12 @@
         </div>
  </div>
               </div>
+            </div>
+            <h1>Welcome, what's your name?</h1>
+    <form>
+      <input type="text" id="username" name="username" placeholder="Type your name..." required />
+      <button type="submit">Enter</button>
+    </form>
             </div>
         </div>
 </main>

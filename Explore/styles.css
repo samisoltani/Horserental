@@ -67,7 +67,7 @@ button:hover{
 input{
     font-family:'Mulish', sans-serif;
     min-height: 48px;
-    min-width: 750px;
+    min-width: 1100px;
     border: solid 0.5px;
     border-radius: 8px;
     background-color: #FDFDFD;
@@ -75,7 +75,7 @@ input{
     color: #9A9AB0;
     font-size: 20px;
     padding-left: 20px;
-    margin-left: 400px;
+    margin-left: 90px;
     margin-top: 50px;
     margin-bottom: 0px;
 } 
@@ -98,14 +98,14 @@ button1:hover{
 }
 
 .site-container {
-    margin: 10rem 25rem;
     margin-top: 4rem;
-    max-width: calc(100%-80%);
+    margin-right: 10px;
+    margin-left: 80px;
 }
 
 .article-container{
     display: grid;
-    grid-template-columns: repeat(3, minmax(300px, 1fr));
+    grid-template-columns: repeat(4, minmax(300px, 1fr));
     box-shadow: 2px;
     gap: 2rem 2rem;
 }
@@ -338,8 +338,34 @@ button3:hover{
     box-shadow: 0 0 40px -10px rgba(0, 0, 0, 0.25);
   }
 
+  .subscribe2 {
+    margin-left: 25px;
+    font-family:'Mulish', sans-serif;
+    font-size: 15px;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 20px;
+}
 
-
+#form-message {
+    padding-left: 200px;
+    font-family: 'Mulish', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    background-color: #BFCEC0;
+    background-size:cover;
+    background-position:center;
+    transition: all 1s ease;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    align-content: center;
+}
+.hidden {
+    display: none;
+}
   .copyright {
     background-color: #BFCEC0;
       background-size: cover;
