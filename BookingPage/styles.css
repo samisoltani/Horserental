@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css?family=Mulish:400,600");
+
 body{
     margin: 0px; 
     padding: 0px;
@@ -60,15 +62,14 @@ button:hover{
     background-color: #f46325cc;
 }
 
-@import url("https://fonts.googleapis.com/css?family=Mulish:400,700,600");
-
 
 
 .title {
   color: var(--mirage);
   font-family: Mulish;
-  font: size 70px;;
-  font-weight: 900;
+ font-size: 40px;
+  font-weight: 400;
+ color: gray;
   letter-spacing: 0.24px;
   margin-left: 65px;
 }
@@ -78,6 +79,7 @@ button:hover{
     flex-direction: column;
     align-items: flex-start;
     font-family: Mulish;
+    color: gray;
   }
 
 
@@ -85,7 +87,7 @@ button:hover{
     display: flex;
     flex-direction: row;
     font-family: Mulish;
-
+    color: gray;
 }
 
 
@@ -96,7 +98,7 @@ button:hover{
 .hthree {
     font-family: Mulish;
     font-weight: bolder;
-    color: black;
+    color: gray;
     margin-left: 60px;
 }
 
@@ -104,12 +106,10 @@ button:hover{
     font-family: Mulish;
     font-weight: 900;
     font-size: 20px;
-    font-display: bolder;
-    color: black;
+    color: gray;
 }
 
 .button {
-    background-color: flamingo;
     border-radius: 8px;
     cursor: pointer;
     text-align: center;
@@ -118,8 +118,8 @@ button:hover{
 
 .details {
     font-family: Mulish;
-    color: black;
-    font-weight: bolder;
+    color: gray;
+   
 }
 
 .trip {
@@ -146,17 +146,17 @@ button:hover{
 }
 
 .open {
-    color: black;
-    font-weight: bolder;
+    color: gray;
+    font-weight: bold;
 }
 
 .location {
-    color: black;
-    font-weight: bolder;
+    color: gray;
+    font-weight: bold;
 }
 
 .titlef {
-    color: black;
+    color:gray;
 }
 
 .facts {
@@ -245,6 +245,7 @@ Card Trial
     transition: 0.3s;
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     overflow: hidden;
+    color: gray;
   }
 
 
@@ -305,4 +306,4 @@ Card Trial
             width: 33.33%;
             background-color: #BFCEC0;
         }
-
+      }
