@@ -1,0 +1,466 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Varela+Round&display=swap');
+body{
+    margin: 0px; 
+    padding: 0px;
+    font-family:'Mulish', sans-serif;
+}
+
+.li, a, button{
+    font-family:'Mulish', sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    color: black;
+    text-decoration: none;
+}
+
+header{
+    display: flex;
+    background-color: #BFCEC0;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 10px 3%;
+}
+
+
+.nav-logo{
+    cursor: pointer;
+    width: 180px;
+    float:left;
+    margin-right: auto;
+}
+
+
+.nav-links{
+    list-style: none;
+}
+
+.nav-links li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav-links li a{
+    transition: all 0.3s ease 0s;
+}
+
+.nav-links li a:hover{
+    color: #F36326
+}
+
+button {
+    margin-left: 20px;
+    padding: 9px 25px;
+    background-color: rgba(244, 99, 37, 1);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    color:white;
+}
+
+button:hover{
+    background-color: rgba(244, 99, 37, 0.8);
+}
+
+.hero {
+    /* Sizing */
+    width: 100vw;
+    height: 100vh;
+    
+    /* Flexbox stuff */
+    display: flex;
+    
+    /* Background styles */
+    background-image: url('http://www.etipsblog.com/wp-content/uploads/2020/06/img_0011.jpg');
+    background-size: cover;
+    width: 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.ready-to-plan-your-p {
+  font-family: "Mulish", sans-serif;  
+  font-weight: 700;
+    left: 52px;
+    letter-spacing: 0.17px;
+    line-height: 80px;
+    position: absolute;
+    top: 308px;
+    width: 761px;
+    font-size: 70px;
+  }
+  
+  .horsevideo {
+    font-weight: 700;
+    line-height: 40px;
+    font-size: 35px;
+    font-family: 'Mulish', sans-serif;
+    padding-top: 200px;
+  }
+
+.copyright {
+  background-color: #BFCEC0;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Varela Round', sans-serif;
+    font-size: 10px;
+    padding: 10px;
+}
+
+
+.all-things-equestrian {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    height: 625px;
+    margin-left: 42.56px;
+    margin-top: 106px;
+    min-width: 1361px;
+    z-index: 5;
+  }
+
+  .all-things-equestrian-text{
+      font-size: 40px;
+      font-weight: 700;
+      padding-bottom: 50px;
+  }
+  
+  .rising-resort {
+    height: 533px;
+    margin-bottom: -8px;
+    margin-left: 5px;
+    width: 428px;
+  }
+  
+  .flex-col-1 {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: -8px;
+    margin-left: -2px;
+    min-height: 633px;
+    width: 463px;
+  }
+  
+  .all-things-equestrian-1 {
+    align-self: flex-end;
+    letter-spacing: 0.2px;
+    line-height: 46.8px;
+    min-height: 77px;
+    width: 442px;
+
+  }
+  
+  .overlap-group6 {
+    align-items: flex-start;
+    background-image: url(https://anima-uploads.s3.amazonaws.com/projects/624dd817ff29e76d6319851b/releases/624dd96d48d5dab8f8773729/img/card@1x.svg);
+    background-size: 100% 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 23px;
+    min-height: 533px;
+    padding: 0px 2.1px;
+    width: 428px;
+  }
+  
+  .button-1 {
+    color: #F36326;
+    align-items: flex-start;
+    border-radius: 8px;
+    display: flex;
+    height: 58px;
+    margin-left: 19.98px;
+    margin-top: 15px;
+    min-width: 194px;
+    padding: 16px 5px;
+  }
+
+p {
+    font-family: 'Mulish', sans-serif;
+    align-items: flex-start;
+    border-radius: 8px;
+    display: flex;
+    height: 58px;
+    margin-left: 19.98px;
+    letter-spacing: 0.08px;
+    line-height: 20px;
+    margin-right: 17px;
+    margin-top: 15px;
+    min-height: 60px;
+    width: 353px;
+  }
+  
+  .click-here-1 {
+    color: #F36326;
+    padding: 5px;
+    border-style: solid;
+    border-radius: 8px;
+    font-family: var(--font-family-mulish);
+    font-size: var(--font-size-m);
+    font-weight: 600;
+    letter-spacing: 0.1px;
+    line-height: 24px;
+    min-height: 24px;
+    min-width: 182px;
+    text-align: center;
+    white-space: nowrap;
+  }
+  
+  .frame-950 {
+    background-image: url(https://anima-uploads.s3.amazonaws.com/projects/624dd817ff29e76d6319851b/releases/624dd96d48d5dab8f8773729/img/equestrian-centre-image@2x.png);
+    background-position: 50% 50%;
+    background-size: cover;
+    height: 352px;
+    width: 422px;
+  }
+  
+  .equestrian-centres {
+    align-self: center;
+font-weight: bold;
+    font-size: 24px;
+    letter-spacing: 0.12px;
+    line-height: 28.8px;
+    margin-right: 34.27px;
+    margin-top: 34px;
+    min-height: 29px;
+    white-space: nowrap;
+    width: 347px;
+    padding-left: 25px;
+  }
+
+  .states-header{
+    align-self: center;
+font-weight: bold;
+    font-size: 24px;
+    letter-spacing: 0.12px;
+    line-height: 28.8px;
+    margin-right: 34.27px;
+    margin-top: 34px;
+    min-height: 29px;
+    white-space: nowrap;
+    width: 347px;
+    padding-left: 25px;
+    color: #F36326;
+  }
+  
+  .estrian-container {
+    align-items: flex-end;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: -8px;
+    margin-left: 34px;
+    min-height: 622px;
+    width: 431px;
+  }
+  
+  .eqestrian-lessons {
+    height: 533px;
+    margin-right: 2.86px;
+    margin-top: 65px;
+    width: 428px;
+  }
+  
+  .search-equestrian {
+    align-items: flex-start;
+    display: flex;
+    height: 24px;
+    justify-content: flex-end;
+    min-width: 245px;
+    padding: 0 2px;
+  }
+  
+  .search-equestrian-1 {
+    letter-spacing: 0.07px;
+    line-height: 18px;
+    margin-left: 34px;
+    min-height: 24px;
+    width: 187px;
+  }
+
+  .search-equestrian-text {
+      padding-left: 30px;
+  }
+  
+  .overlap-group-1 {
+    height: 15px;
+    margin-top: 1.86px;
+    position: relative;
+    width: 19px;
+  }
+  
+  .icon-color-1 {
+    height: 15px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 19px;
+  }
+  
+  .path {
+    height: 1px;
+    left: 10px;
+    position: absolute;
+    top: 9px;
+    width: 1px;
+  }
+
+
+  .explore-top-destination {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    left: 0;
+    min-height: 1664px;
+    position: absolute;
+    top: 0;
+    width: 1282px;
+  }
+
+  .top-riding-states-to-visit {
+    letter-spacing: 0.2px;
+    line-height: 46.8px;
+    min-height: 94px;
+    width: 488px;
+  }
+
+  .flex-row {
+    align-items: flex-start;
+    display: flex;
+    height: 1551px;
+    margin-left: -4px;
+    margin-top: 27px;
+    min-width: 1288px;
+  }
+
+  * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background: #fefefe;
+    font-family: sans-serif;
+  }
+  
+  .container {
+    width: 1280px;
+    margin: 50px auto;
+  }
+  .heading {
+    text-align: left;
+    font-size: 20px;
+    margin-bottom: 50px;
+  }
+  
+  .row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-flow: wrap;
+  }
+  
+  .card {
+    background: #fff;
+    border: 1px solid #ccc;
+    margin-bottom: 50px;
+    transition: 0.3s;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    overflow: hidden;
+    width: 451px;
+  }
+
+  .card img {
+    height: 352px;
+    width: auto;
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 40px -10px rgba(0, 0, 0, 0.25);
+  }
+  
+  @media screen and (max-width: 1000px) {
+    .card {
+      width: 40%;
+    }
+  }
+  
+  @media screen and (max-width: 620px) {
+    .container {
+      width: 100%;
+    }
+  
+    .heading {
+      padding: 20px;
+      font-size: 20px;
+    }
+  
+    .card {
+      width: 80%;
+    }
+
+    .slider{
+      max-width: 1100px;
+      display: flex;
+    }
+    .slider .card{
+      flex: 1;
+      margin: 0 10px;
+      background: #fff;
+    }
+    .slider .card .img{
+      height: 200px;
+      width: 100%;
+    }
+    .slider .card .img img{
+      height: 100%;
+      width: 100%;
+      object-fit: cover;
+    }
+    .slider .card .content{
+      padding: 10px 20px;
+    }
+    .card .content .title{
+      font-size: 25px;
+      font-weight: 600;
+    }
+    .card .content .sub-title{
+      font-size: 20px;
+      font-weight: 600;
+      color: #e74c3c;
+      line-height: 20px;
+    }
+    .card .content p{
+      text-align: justify;
+      margin: 10px 0;
+    }
+    .card .content .btn{
+      display: block;
+      text-align: left;
+      margin: 10px 0;
+    }
+    .card .content .btn button{
+      background: #e74c3c;
+      color: #fff;
+      border: none;
+      outline: none;
+      font-size: 17px;
+      padding: 5px 8px;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: 0.2s;
+    }
+    .card .content .btn button:hover{
+      transform: scale(0.9);
+    }
+
+    .column {
+      width: 33.33%;
+      background-color: #BFCEC0;
+  }
+}
